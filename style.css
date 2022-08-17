@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.panel {
+    padding: 15px 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 960px;
+}
+
+.pricing-plan {
+    padding: 25px 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing-plan img {
+    max-width: 100%;
+}
+
+.pricing-plan h2, li {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.pricing-plan h2 {
+    color: #888;
+    font-size: 16px;
+    border-top: none;
+    margin-bottom: 35px;
+}
+
+.pricing-plan li {
+    color: #016ff9
+}
+
+.pricing-plan span {
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-plan__button {
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 25px 0;
+    border-radius: 10px;
+    border: 1px solid #9dd1ff;
+    color: #348efe;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-plan__button:hover {
+    background-color: #e1f1ff;
+}
+
+.pricing-plan__button_featured {
+    background-color: #48aaff;
+    color: #fff;
+}
+
+.pricing-plan__button_featured:hover {
+        background-color: #269aff;
+}
+
+@media (min-width: 960px) {
+    .panel {flex-direction: row;}
+    /* .wrapper {padding: 0;} */
+
+}
